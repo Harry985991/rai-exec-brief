@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsible AI 政策重大性評分｜主管簡報</title>
+  <title>Responsible AI 政策重大性評分｜前導簡報</title>
   <style>
     :root {
       --ink: #17131f;
@@ -218,6 +218,23 @@
 
     .footer span:last-child {
       color: var(--ink);
+    }
+
+    .hero-footer {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: end;
+      gap: 22px;
+    }
+
+    .ai-disclosure {
+      max-width: 780px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.6;
+      font-weight: 650;
+      letter-spacing: 0;
+      text-transform: none;
     }
 
     .hero-grid {
@@ -619,7 +636,7 @@
     <header class="topbar">
       <div class="brand">
         <div class="mark">AI</div>
-        <div class="brand-title">Responsible AI 政策重大性評分｜主管簡報</div>
+        <div class="brand-title">Responsible AI 政策重大性評分｜前導簡報</div>
       </div>
       <nav class="nav" aria-label="簡報頁面">
         <a href="#s1">1</a>
@@ -646,8 +663,8 @@
             <div class="proof-copy">分鐘內掌握為何需要 AI 治理，以及主管評分會如何轉成政策優先序。</div>
           </aside>
         </div>
-        <footer class="footer">
-          <span>Pre-Survey Briefing</span>
+        <footer class="footer hero-footer">
+          <span class="ai-disclosure">本前導簡報由 Harry Chao 運用 AI 工具 Claude 產生初稿，並以 Codex 協助文字調整與版本更新；最終內容已由人工審核確認。</span>
           <span>01 / 06</span>
         </footer>
       </article>
