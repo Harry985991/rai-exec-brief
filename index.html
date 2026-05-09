@@ -344,13 +344,18 @@
 
     .stance ul {
       margin: 0;
-      padding: 0;
-      list-style: none;
+      padding-left: 22px;
+      list-style: disc;
       display: grid;
       gap: 13px;
       color: var(--muted);
       font-size: 18px;
       font-weight: 650;
+    }
+
+    .stance li::marker {
+      color: var(--purple);
+      font-size: 0.9em;
     }
 
     .scope-grid {
@@ -633,7 +638,7 @@
           <div>
             <h1>Responsible AI 政策重大性評分</h1>
             <p class="lead" style="margin-top: 28px;">
-              目的不是限制 AI，而是讓公司能更放心、更可控地使用 AI。
+              Responsible AI 是讓 AI 被負責任地導入、使用與管理；AI 治理則是讓這件事落地的制度與流程。
             </p>
           </div>
           <aside class="hero-proof">
@@ -652,7 +657,7 @@
         <div class="content">
           <h2>AI 已進入營運日常，風險也開始累積。</h2>
           <p class="lead">
-            客服、製造、分析、研發、人資與流程自動化，都可能同時碰到資料、決策與責任問題。
+            客服、製造、分析、研發與各部門流程都正在融入 AI，也讓資料、決策與責任問題變得更需要被管理。
           </p>
           <div class="signal-row">
             <div class="signal">
@@ -660,8 +665,8 @@
               <span>機密、個資、合約與財務資料可能被輸入外部工具。</span>
             </div>
             <div class="signal">
-              <strong>決策需要覆核</strong>
-              <span>AI 輸出若影響客戶、員工或供應商，需要有人能判斷與否決。</span>
+              <strong>錯誤決策可能放大</strong>
+              <span>當 AI 參與判斷或建議，若輸出有問題，可能造成客戶、營運或合規上的嚴重錯誤。</span>
             </div>
             <div class="signal">
               <strong>責任必須明確</strong>
@@ -679,6 +684,7 @@
         <div class="slide-kicker">Definition</div>
         <div class="content">
           <h2>AI 治理就是「AI 的使用規則」。</h2>
+          <p class="lead">Responsible AI 是原則，AI 治理是把原則變成可執行管理機制的方法。</p>
           <div class="rule-map">
             <div class="rule-card">
               <div class="rule-label">財務管理制度</div>
@@ -731,7 +737,7 @@
               <div class="scope-num">1</div>
               <div>
                 <h3>用了什麼 AI？</h3>
-                <p>外部工具與公司採購系統是否被盤點、審核與分類。</p>
+                <p>系統或員工使用的 AI 工具是否被盤點、審核與分類。</p>
               </div>
             </div>
             <div class="scope">
@@ -766,13 +772,13 @@
       <article class="slide" id="s5">
         <div class="slide-kicker">Risk</div>
         <div class="content">
-          <h2>不治理，不代表風險不存在。</h2>
-          <p class="lead">只是讓風險在沒有被看見、沒有被分工的情況下持續累積。</p>
+          <h2>不治理，風險會持續擴大。</h2>
+          <p class="lead">治理讓以下風險被看見、被分工，並能被持續管理。</p>
           <div class="risk-strip">
             <div class="risk legal">
               <div class="tag">法律合規</div>
               <h3>違規成本可能快速放大</h3>
-              <p>AI Act、個資法與歧視性決策風險，都要求企業對 AI 使用方式負責。</p>
+              <p>AI Act、個資法、客戶合約與歧視性決策風險，都要求企業能說明並管理 AI 的使用方式。</p>
             </div>
             <div class="risk business">
               <div class="tag">營運商譽</div>
@@ -780,9 +786,9 @@
               <p>合約、配方、財務數據或客戶資料被不當使用，會直接影響信任。</p>
             </div>
             <div class="risk esg">
-              <div class="tag">永續評分</div>
-              <h3>AI 治理已進入 ESG 評估語境</h3>
-              <p>缺乏可說明的政策與管理機制，將影響 CSA 與投資人信心。</p>
+              <div class="tag">永續實踐</div>
+              <h3>AI 治理是企業永續升級的一部分</h3>
+              <p>重點不只是取得評分，而是讓 AI 導入符合治理、透明、責任與長期永續的要求。</p>
             </div>
           </div>
         </div>
@@ -799,7 +805,7 @@
           <div class="flow">
             <div class="flow-step">
               <div class="num">01</div>
-              <strong>30 位主管完成評分</strong>
+              <strong>廠處以上主管完成評分</strong>
             </div>
             <div class="flow-step">
               <div class="num">02</div>
@@ -807,7 +813,7 @@
             </div>
             <div class="flow-step">
               <div class="num">03</div>
-              <strong>識別共識與分歧</strong>
+              <strong>識別初步共識</strong>
             </div>
             <div class="flow-step">
               <div class="num">04</div>
@@ -825,8 +831,8 @@
             </div>
             <div class="key-points">
               <div class="key-point">沒有標準答案，管理層判斷本身就是關鍵資料。</div>
-              <div class="key-point">分數代表潛在重大性，即使現在管得好，影響大仍應偏高。</div>
-              <div class="key-point">結果會協助公司把 AI 政策先做在最重要的地方。</div>
+              <div class="key-point">評分時要以「AI 導進來之後」的影響為主。</div>
+              <div class="key-point">結果是初步共識，會協助公司找到 AI 政策的重點。</div>
             </div>
           </div>
         </div>
